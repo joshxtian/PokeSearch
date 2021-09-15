@@ -1,0 +1,162 @@
+module.exports = {
+  purge: [
+    './resources/**/*.blade.php',
+    './resources/**/*.js',
+    './resources/**/*.vue',
+
+  ],
+  darkMode: false, // or 'media' or 'class'
+  purge: {
+        enabled: true,
+        content: [
+            './resources/views/**/*'
+        ],
+    },
+    prefix: '',
+    important: false,
+    separator: ':',
+    theme: {
+      extend: {
+
+      },
+      screens: {
+        sm: '480px',
+        md: '768px',
+        lg: '1024px',
+        xl: '1200',
+      },
+      colors: {
+        transparent: 'transparent',
+        black: '#000',
+        white: '#fff',
+        lightwhite: 'rgba(255,255,255,0.8)',
+        red: {
+          DEFAUlT: '#FF5757',
+        },
+        pink: {
+          100: '#D288A2'
+        },
+        pkmn_type: {
+          grass: '#78C850',
+          fire: '#F08030',
+          water: '#6890F0',
+          bug: '#A8B820',
+          normal: '#A8A878',
+          poison: '#A040A0',
+          electric: '#F8D030',
+          ground: '#E0C068',
+          fairy: '#EE99AC',
+          fighting: '#C03028',
+          psychic: '#F85888',
+          rock: '#B8A038',
+          ghost: '#705898',
+          ice: '#98D8D8',
+          dragon: '#7038F8'
+
+        },
+        gray: {
+          DEFAULT: '#E5E5E5',
+          100: '#BBBBBB',
+          200: '#A8A8A8',
+          300: '#767676',
+          400: '#585858',
+          500: '#484848',
+          600: '#3F3F3F',
+          700: '#b2b2b2',
+          800: '#9A9A9A',
+          900: '#c9c9c9',
+          1000: '#BCBCBC',
+          1100: '#CDCDCD',
+          1200: '#DDDDDD',
+          1300: '#F8F8F8'
+        },
+        brown: {
+          DEFAULT: '#97846D',
+          100: '#7B6D5C'
+        },
+        cream: '#FFE2BE',
+        lightcream: '#FFF5EA',
+        blue: {
+          DEFAULT: '#3B597D',
+          100: '#00DDF5',
+          200: '#416083',
+          300: '#162230',
+          400: '#2B415A',
+          500: '#455971',
+          600: '#3B597D',
+          'transparent': 'rgba(59, 89, 125, 0.4)'
+        }
+      },
+      spacing: {
+        full: '100%',
+        0: 0,
+        1: '1px',
+        2: '2px',
+        3: '3px',
+        4: '4px',
+        5: '5px',
+        8: '8px',
+        10: '10px',
+        12: '12px',
+        14: '14px',
+        15: '15px',
+        16: '16px',
+        18: '18px',
+        20: '20px',
+        22: '22px',
+        23: '23px',
+        24: '24px',
+        25: '25px',
+        30: '30px',
+        32: '32px',
+        35: '35px',
+        40: '40px',
+        45: '45px',
+        48: '48px',
+        50: '50px',
+        55: '55px',
+        56: '56px',
+        60: '60px',
+        64: '64px',
+        70: '70px',
+        75: '75px',
+        80: '80px',
+        85: '85px',
+        90: '90px',
+        95: '95px',
+        100: '100px',
+        110: '110px',
+        120: '120px',
+        125: '125px',
+        130: '130px',
+        144: '144px',
+        150: '150px',
+        180: '180px',
+        195: '195px',
+        200: '200px',
+        442: '442px',
+        'gutter': '24px',
+        'gutter-1/2': '12px'
+      },
+      backgroundPosition: {
+        bottom: 'bottom',
+        center: 'center',
+        left: 'left',
+        'left-bottom': 'left bottom',
+        'left-top': 'left top',
+        right: 'right',
+        'right-bottom': 'right bottom',
+        'right-top': 'right top',
+        top: 'top',
+      },
+      backgroundSize: {
+        auto: 'auto',
+        cover: 'cover',
+        contain: 'contain',
+      },
+    },
+  variants: {
+    extend: {},
+  },
+  plugins: [],
+}
